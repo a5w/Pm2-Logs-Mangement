@@ -8,9 +8,9 @@ hostname=$(hostname)
 emailsend() {
 
 SERVER="smtp.gmail.com"
-USER="Youre_Email@gmail.com"
-PASS="Youre_PassWord"
-FROM="noreply.lockmesh.com@gmail.com"
+USER="Your_Email@gmail.com"
+PASS="Your_PassWord"
+FROM="Your_Email@gmail.com"
 TO="${recipient}"
 SUBJ="[${hostname}]PM2 process ${process} logs "
 MESSAGE="Log File is Attached"
